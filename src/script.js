@@ -1,6 +1,9 @@
 const btnRotate = document.getElementById('btn-rotate')
+
+let rotation = 0;
 const rotate = () => {
-    btnRotate.style.transform = 'rotate(90deg)';
+    rotation += 90;
+    btnRotate.style.transform = `rotate(${rotation}deg)`;
     console.log('function fired')
 }
 
