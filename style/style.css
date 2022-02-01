@@ -28,6 +28,10 @@ h1 {
     margin-bottom: 20px;
 }
 
+#goofy {
+    font-size: 12px;
+}
+
 #btn-rotate {
     background-color: #f03;
     color: #fff;
