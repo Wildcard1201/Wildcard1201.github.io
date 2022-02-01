@@ -12,11 +12,26 @@ body {
     height: 100vh;
 }
 
+#soRando {
+    font-size: 20px;
+    font-weight: 900;
+    color: #ff0;
+    text-shadow: 1px 1px 2px #000;
+}
+
 h1 {
     color: #0f3;
+    border: 2px solid #0f3;
+    border-radius: 50% 30% 20% 60% / 15% 20% 60% 65%;
+    background-color: #f03;
+    padding: 50px;
+    margin-bottom: 20px;
 }
 
 #btn-rotate {
     background-color: #f03;
     color: #fff;
+    padding: 5px;
+    border-radius: 25px;
+    transition: transform 0.5s ease-out;
 }
