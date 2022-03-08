@@ -10,12 +10,14 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #000;
 }
 
 header {
     position: fixed;
     top: 0;
     left: 0;
+    color: #fff;
 }
 
 nav ul {
@@ -24,4 +26,17 @@ nav ul {
 
 nav ul li {
     margin: 15px;
+    list-style-type: none;
 }
+
+.hub {
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid green;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
