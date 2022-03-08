@@ -11,3 +11,17 @@ body {
     align-items: center;
     height: 100vh;
 }
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin: 15px;
+}
