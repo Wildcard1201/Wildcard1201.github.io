@@ -46,6 +46,8 @@ nav ul li {
     height: 200px;
     border-radius: 50%;
     background-color: #fff; 
+    font-size: 1em;
+    transition: 0.2s linear 0.2s;
 }
 
 .bubble-1 {
@@ -55,6 +57,15 @@ nav ul li {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.bubble-1:hover {
+    width: 250px;
+    height: 250px;
+    left: -275px;
+    transition: 0.2s linear 0.2s;
+    background-color: #f00;
+    font-size: 1.5em;
 }
 
 .bubble-2 {
