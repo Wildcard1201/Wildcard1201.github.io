@@ -52,6 +52,10 @@ nav ul li {
     text-align: center;
 }
 
+.bubble a {
+    text-decoration: none;
+}
+
 .bubble-1 {
     position: absolute;
     left: -250px;
