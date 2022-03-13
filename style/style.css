@@ -29,6 +29,11 @@ nav ul li {
     list-style-type: none;
 }
 
+nav ul li:hover {
+    color: #f00;
+    cursor: pointer;
+}
+
 .hub {
     background-color: #fff;
     border-radius: 50% 20% 50% 20%;
@@ -55,6 +60,7 @@ nav ul li {
 .bubble a {
     text-decoration: none;
 }
+
 
 .bubble-1 {
     position: absolute;
