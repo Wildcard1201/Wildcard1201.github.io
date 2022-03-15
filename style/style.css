@@ -75,8 +75,11 @@ nav ul li:hover {
 }
 
 .bubble:hover {
-    width: 250px;
-    height: 250px;
+    /* width: 250px;
+    height: 250px; */
+
+    transform: scale(1.5);
+
     transition: 0.1s ease-in 0.4s;
     background-color: #f00;
     font-size: 1.5em;
@@ -88,7 +91,7 @@ nav ul li:hover {
 }
 
 .bubble-1:hover {
-    left: -275px;
+    transform: translateX(-25px);
 }
 
 .bubble-2 {
@@ -97,7 +100,7 @@ nav ul li:hover {
 }
 
 .bubble-2:hover {
-    right: -275px;
+    transform: translateX(25px);
 }
 
 .bubble-3 {
