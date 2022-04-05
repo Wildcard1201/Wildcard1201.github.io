@@ -35,30 +35,30 @@ nav ul li:hover {
 }
 
 .hub {
-    background-color: #fff;
-    border-radius: 50% 20% 50% 20%;
-    border: 1px solid green;
-    padding: 50px;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: relative;
+    border-radius: 50% 20% 50% 20%;
+    border: 1px solid green;
+    background-color: #fff;
+    padding: 50px;
 }
 
 .bubble {
-    width: 200px;
-    height: 200px;
-    border-radius: 20px;
-    background-color: #fff; 
-    font-size: 1em;
-    transition: 0.3s ease-in 0.1s;
-    padding: 20px;
-    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition: 0.3s ease-in 0.1s; 
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    background-color: #fff; 
+    font-size: 1em;
+    text-align: center;
 }
 
 .bubble a {
@@ -85,7 +85,7 @@ nav ul li:hover {
 }
 
 .bubble:hover a {
-    color: blue;
+    color: lightgoldenrodyellow;
 }
 
 .bubble-1 {
