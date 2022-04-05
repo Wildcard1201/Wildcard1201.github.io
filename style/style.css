@@ -49,10 +49,10 @@ nav ul li:hover {
 .bubble {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 20px;
     background-color: #fff; 
     font-size: 1em;
-    transition: 0.1s linear 0.2s;
+    transition: 0.3s ease-in 0.1s;
     padding: 20px;
     text-align: center;
     display: flex;
@@ -63,7 +63,7 @@ nav ul li:hover {
 
 .bubble a {
     text-decoration: none;
-    color: #0f0;
+    color: darkgray;
 }
 
 .bubble a:link {
@@ -75,14 +75,17 @@ nav ul li:hover {
 }
 
 .bubble:hover {
-    /* width: 250px;
-    height: 250px; */
 
-    transform: scale(1.5);
+    /* transform: scale(1.5); */
 
-    transition: 0.1s ease-in 0.4s;
-    background-color: #f00;
-    font-size: 1.5em;
+    transition: 0.4s ease-in 0.1s;
+    background-color: lightblue;
+    color: #fff;
+    /* font-size: 1.5em; */
+}
+
+.bubble:hover a {
+    color: blue;
 }
 
 .bubble-1 {
@@ -91,7 +94,10 @@ nav ul li:hover {
 }
 
 .bubble-1:hover {
-    transform: translateX(-25px);
+    /* transform: translateX(-25px); */
+    height: 600px;
+    /* font-size: 1em; */
+    /* border-radius: ; */
 }
 
 .bubble-2 {
