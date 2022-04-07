@@ -81,11 +81,14 @@ nav ul li:hover {
     transition: 0.4s ease-in 0.1s;
     background-color: lightblue;
     color: #fff;
+    text-shadow: 0 0 5px gray;
     /* font-size: 1.5em; */
 }
 
 .bubble:hover a {
-    color: lightgoldenrodyellow;
+    color: orange;
+    text-shadow: 0 0 5px white;
+    transition: 0.3 linear 0.2s;
 }
 
 .bubble-1 {
