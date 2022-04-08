@@ -63,15 +63,7 @@ nav ul li:hover {
 
 .bubble a {
     text-decoration: none;
-    color: darkgray;
-}
-
-.bubble a:link {
-    text-decoration: none;
-}
-
-.bubble a:visited {
-    text-decoration: none;
+    color: inherit;
 }
 
 .bubble:hover {
@@ -83,12 +75,6 @@ nav ul li:hover {
     color: #fff;
     text-shadow: 0 0 5px gray;
     /* font-size: 1.5em; */
-}
-
-.bubble:hover a {
-    color: orange;
-    text-shadow: 0 0 5px white;
-    transition: 0.3 linear 0.2s;
 }
 
 .bubble-1 {
