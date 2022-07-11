@@ -6,19 +6,16 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     background-color: #333;
 }
 
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
     color: #fff;
+}
+
+main {
+    /* width: 100%; */
 }
 
 nav ul {
@@ -44,4 +41,17 @@ nav ul li {
 .nav-upper-link:visited {
     text-decoration: none;
     color: inherit;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project {
+    border: 1px solid #fff;
+    min-width: 200px;
+    min-height: 300px;
+    color: #fff;
 }
