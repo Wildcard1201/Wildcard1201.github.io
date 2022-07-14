@@ -62,14 +62,7 @@ nav ul li {
     max-height: 400px;
 }
 
-.projects {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
 .project {
     border: 1px solid #fff;
-    min-width: 200px;
     min-height: 300px;
 }
