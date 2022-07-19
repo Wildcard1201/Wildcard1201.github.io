@@ -81,3 +81,13 @@ nav ul li {
     min-height: 300px;
     padding: 5px;
 }
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content img {
+    width: 30%;
+}
