@@ -84,7 +84,9 @@ nav ul li {
 }
 
 .about-me {
-    border-bottom: 2px solid #fff;
+    border-bottom: 5px ridge #fff;
+    border-top: 5px groove #fff;
+    padding: 5px 0;
 }
 
 .project {
