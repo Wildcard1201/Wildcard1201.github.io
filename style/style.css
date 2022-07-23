@@ -83,6 +83,10 @@ nav ul li {
     height: 300px;
 }
 
+.about-me {
+    border-bottom: 2px solid #fff;
+}
+
 .project {
     position: relative;
     border: 1px solid #fff;
