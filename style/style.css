@@ -5,6 +5,11 @@
     font-size: 16px;
 }
 
+:root {
+    /* --main-bg-color: brown; */
+    --borders: #dcdcdc;
+}
+
 .flex-center {
     display: flex;
     flex-direction: column;
@@ -77,21 +82,21 @@ nav ul li {
 
 .profile-pic {
     margin: 15px 0;
-    border: 3px solid #fff;
+    border: 3px solid var(--borders);
     border-radius: 50%;
     width: 300px;
     height: 300px;
 }
 
 .about-me {
-    border-bottom: 5px ridge #fff;
-    border-top: 5px groove #fff;
+    border-bottom: 5px ridge var(--borders);
+    border-top: 5px groove var(--borders);
     padding: 5px 0;
 }
 
 .project {
     position: relative;
-    border: 1px solid #fff;
+    border: 1px solid var(--borders);
     min-height: 300px;
     padding: 5px;
 }
