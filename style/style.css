@@ -52,7 +52,7 @@ header {
 .header-shared {
     border-bottom: 2px solid var(--borders);
     width: fit-content;
-    background-color: #ffa500;
+    background-color: hsla(39, 100%, 50%, 0.9);
 }
 
 main {
