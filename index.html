@@ -10,16 +10,21 @@
 <body>
     <header>
         <nav id="nav">
-            <ul class="header-left">
-                <li><a href="#nav" class="nav-upper-link">Home</a></li>
+            <ul class="header-left header-shared">
+                <li><a href="#home" class="nav-upper-link">Home</a></li>
+                <li><a href="#about-me" class="nav-upper-link">About Me</a></li>
                 <li><a href="#projects" class="nav-upper-link">Projects</a></li>
-                <li><a href="#" class="nav-upper-link">Contact</a></li>
+            </ul>
+            <ul class="header-right header-shared">
+                <li><a href="#" class="nav-upper-link">Github</a></li>
+                <li><a href="#" class="nav-upper-link">Twitter</a></li>
+                <li><a href="#" class="nav-upper-link">LinkedIn</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="hero flex-center">
+        <section class="hero flex-center" id="home">
             <div class="hero-img-container">
                 <h3>Ozamataz</h3>
                 <img src="src/img/a_dog.avif" alt="Profile Picture" class="profile-pic">
@@ -31,7 +36,7 @@
             </article>
         </section>
 
-        <section class="about-me">
+        <section class="about-me" id="about-me">
             <article class="flex-center">
                 <p>My name is blah blah blah and I do a lot of blah blah blah. The short version is blah blah. If you want the long version, click below to expand. Otherwise take a look at some of the blah blah that I did before.</p>
                 <p>More info?</p>
