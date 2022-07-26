@@ -8,6 +8,8 @@
 :root {
     /* --main-bg-color: brown; */
     --borders: #dcdcdc;
+    --orange: rgb(255, 150, 85);
+    --orange-transparent: rgba(255, 150, 85, 0.9);
 }
 
 .flex-center {
@@ -18,7 +20,7 @@
 }
 
 .xtarget:target { 
-    color:#2bbbb3; 
+    color: var(--orange); 
     margin-top:-12px; 
     padding-top:80px; 
 }
@@ -28,6 +30,10 @@ body {
     background-color: #333;
     color: #fff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-size: 32px;
 }
 
 header {
@@ -58,15 +64,7 @@ header {
 .header-shared {
     border-bottom: 2px solid var(--borders);
     width: fit-content;
-    background-color: hsla(39, 100%, 50%, 0.9);
-}
-
-main {
-    position: absolute;
-    z-index: 1;
-    top: 50px;
-    left: 5%;
-    width: 90%;
+    background-color: var(--orange-transparent);
 }
 
 section {
@@ -100,6 +98,15 @@ nav ul li {
 .nav-upper-link:visited {
     text-decoration: none;
     color: inherit;
+}
+
+main {
+    /* position: absolute; */
+    position: relative;
+    z-index: 1;
+    /* top: 50px; */
+    left: 5%;
+    width: 90%;
 }
 
 .hero-img-container {
