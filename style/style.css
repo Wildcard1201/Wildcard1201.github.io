@@ -23,6 +23,7 @@
     color: var(--orange); 
     margin-top:-12px; 
     padding-top:80px; 
+
 }
 
 body {
@@ -68,7 +69,7 @@ header {
 }
 
 section {
-    margin: 15px 0;
+    margin: 80px 0;
 }
 
 nav {
@@ -131,7 +132,7 @@ main {
 
 .about-me {
     border-bottom: 5px ridge var(--borders);
-    border-top: 5px groove var(--borders);
+    /* border-top: 5px groove var(--borders); */
     padding: 5px 0;
 }
 
