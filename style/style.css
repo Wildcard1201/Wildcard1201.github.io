@@ -17,6 +17,12 @@
     align-items: center;
 }
 
+.xtarget:target { 
+    color:#2bbbb3; 
+    margin-top:-12px; 
+    padding-top:80px; 
+}
+
 body {
     height: 100vh;
     background-color: #333;
