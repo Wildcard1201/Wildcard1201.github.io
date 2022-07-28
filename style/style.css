@@ -162,7 +162,12 @@ main {
     height: 300px;
 }
 
-.content p {
+.text-wrapper {
+    height: 100%;
+    padding: 40px 10px;
+}
+
+.text-wrapper p {
     padding: 5px;
 }
 
