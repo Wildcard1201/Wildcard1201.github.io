@@ -28,7 +28,7 @@
 }
 
 .glow-shadow {
-    box-shadow: 3px 3px 10px var(--orange-transparent);
+    box-shadow: 2px 2px 7px #aaa;
 }
 
 body {
