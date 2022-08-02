@@ -12,6 +12,41 @@
     --orange-transparent: rgba(255, 150, 85, 0.9);
 }
 
+
+/* GENERIC SELECTORS */
+
+body {
+    height: fit-content;
+    background-color: #333;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-size: 32px;
+    text-align: center;
+}
+
+section {
+    margin: 50px 0;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin: 15px;
+    list-style-type: none;
+}
+
+
+/* UTILITY CLASSES */
+
 .flex-center {
     display: flex;
     flex-direction: column;
@@ -31,17 +66,8 @@
     box-shadow: 0 0 7px #aaa;
 }
 
-body {
-    height: fit-content;
-    background-color: #333;
-    color: #fff;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 
-h2 {
-    font-size: 32px;
-    text-align: center;
-}
+/* HEADER */
 
 header {
     position: sticky;
@@ -74,23 +100,6 @@ header {
     background-color: var(--orange-transparent);
 }
 
-section {
-    margin: 50px 0;
-}
-
-nav {
-    display: flex;
-}
-
-nav ul {
-    display: flex;
-}
-
-nav ul li {
-    margin: 15px;
-    list-style-type: none;
-}
-
 .nav-upper-link {
     font-size: 1.2em;
     list-style: none;
@@ -106,6 +115,9 @@ nav ul li {
     text-decoration: none;
     color: inherit;
 }
+
+
+/* MAIN CONTENT */
 
 main {
     /* position: absolute; */
