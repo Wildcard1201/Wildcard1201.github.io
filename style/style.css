@@ -108,7 +108,9 @@ header {
 
 .nav-upper-link:hover,
 .nav-upper-link:visited:hover {
-    color: #ffa500;
+    color: #333;
+    text-decoration: underline;
+    text-decoration-style: double;
 }
 
 .nav-upper-link:visited {
