@@ -151,6 +151,16 @@ main {
     height: 300px;
 }
 
+.first-name {
+    position: absolute;
+    right: calc(50% + 150px);
+}
+
+.last-name {
+    position: absolute;
+    left: calc(50% + 150px);
+}
+
 .about-me {
     border-bottom: 5px ridge var(--borders);
     /* border-top: 5px groove var(--borders); */
