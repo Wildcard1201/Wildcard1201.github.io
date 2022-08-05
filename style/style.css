@@ -6,9 +6,10 @@
 }
 
 :root {
-    --main-bg-color: #fff;
-    --main-text-color: #333;
+    --main-bg-color: #fefefe;
+    --main-text-color: #272727;
     --project-text-color: #fff;
+    --project-background-color: #464646;
     --borders: #dcdcdc;
     --orange: rgb(255, 150, 85);
     --orange-transparent: rgba(255, 150, 85, 0.9);
@@ -175,7 +176,7 @@ main {
     min-height: 300px;
     padding: 5px 15px;
     color: var(--project-text-color);
-    background-color: #505050;
+    background-color: var(--project-background-color);
 }
 
 .project h2 {
