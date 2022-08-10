@@ -169,6 +169,14 @@ main {
     padding: 5px 0;
 }
 
+.more-info-button {
+    cursor: pointer;
+}
+
+.more-info-content {
+    background: lightgoldenrodyellow;
+}
+
 .project {
     position: relative;
     margin: 15px 0;
