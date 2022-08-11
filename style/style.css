@@ -170,7 +170,22 @@ main {
 }
 
 .more-info-button {
+    margin: 10px 0;
+
+    border: 1px solid var(--main-text-color);
+    border-radius: 5px;
+
+    padding: 5px;
     cursor: pointer;
+}
+
+.more-info-button:hover {
+    background-color: var(--orange-transparent);
+    /* display: block; */
+    color: #fff;
+
+    /* transition: background-color 0.3s ease 0.05s; */
+    /* transition: display 0.5s ease-in 0.2s; */
 }
 
 .more-info-content {
