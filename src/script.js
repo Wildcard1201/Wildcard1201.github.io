@@ -9,10 +9,14 @@ function toggleInfo() {
         info.style.display = 'block'
         showInfo = true
         console.log('hey I showed the info')
+
+        infoButton.innerHTML = 'Less info &#8593;'
     } else {
         info.style.display = 'none'
         showInfo = false
         console.log('hey I hid the info')
+
+        infoButton.innerHTML = 'Click for more info &#8595;'
     }
 
 }
