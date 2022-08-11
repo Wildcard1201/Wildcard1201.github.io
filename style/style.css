@@ -174,7 +174,10 @@ main {
 }
 
 .more-info-content {
+    display: none;
+
     background: lightgoldenrodyellow;
+
 }
 
 .project {
