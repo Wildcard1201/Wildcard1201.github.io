@@ -268,3 +268,19 @@ main {
     /* border: 1px solid yellow; */
     margin-right: 10px;
 }
+
+.project-address a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.project-address a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.project-address a:hover {
+    text-decoration: underline;
+    color: var(--orange);
+}
+
