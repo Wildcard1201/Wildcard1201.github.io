@@ -192,9 +192,15 @@ main {
 
 .more-info-content {
     display: none;
+    border-radius: 10px;
+    padding: 10px;
 
     background: lightgoldenrodyellow;
 
+}
+
+.more-info-content ul {
+    margin-left: 20px;
 }
 
 .project {
