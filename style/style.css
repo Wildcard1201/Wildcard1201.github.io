@@ -109,6 +109,7 @@ header {
     font-size: 1.2em;
     list-style: none;
     text-decoration: none;  
+    color: var(--main-text-color);
 }
 
 .nav-upper-link:hover,
