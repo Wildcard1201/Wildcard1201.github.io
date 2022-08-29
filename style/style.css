@@ -180,6 +180,7 @@ main {
 
     padding: 5px;
     cursor: pointer;
+    background-color: var(--borders);
 }
 
 .more-info-button:hover {
