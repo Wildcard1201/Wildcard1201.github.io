@@ -233,6 +233,10 @@ main {
     padding: 10px 0;;
 }
 
+.content-list {
+    margin-left: 25px;
+}
+
 .text-wrapper {
     width: 70%;
     height: 100%;
