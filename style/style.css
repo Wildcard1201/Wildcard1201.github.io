@@ -252,7 +252,7 @@ main {
 }
 
 .text-wrapper p::first-letter {
-    font-size: 1.3em;
+    font-size: 150%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: var(--orange-transparent);
     padding: 1px;
