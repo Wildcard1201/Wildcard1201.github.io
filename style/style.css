@@ -175,12 +175,13 @@ main {
 .more-info-button {
     margin: 10px 0;
 
-    border: 1px solid var(--main-text-color);
+    border: 1px solid var(--borders);
     border-radius: 5px;
 
     padding: 5px;
     cursor: pointer;
-    background-color: var(--borders);
+    background-color: var(--project-background-color);
+    color: var(--project-text-color)
 }
 
 .more-info-button:hover {
